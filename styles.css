@@ -207,3 +207,87 @@ footer a:hover {
 .cta p {
     margin-bottom: 20px;
 }
+
+.contact {
+    background-color: #1e1e1e;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    color: orange;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.quote-form, .contact-details {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.quote-form h3, .contact-details h3 {
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.quote-form input,
+.quote-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+.quote-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.quote-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: orange;
+    color: #111;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quote-form button:hover {
+    background-color: #ff9f00;
+}
+
+.contact-details p {
+    margin: 10px 0;
+    color: #eee;
+}
+
+.contact-details a {
+    color: orange;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
