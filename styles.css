@@ -291,3 +291,45 @@ footer a:hover {
 .contact-details a:hover {
     text-decoration: underline;
 }
+
+.gallery {
+    background-color: #1e1e1e;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.gallery p {
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.03);
+}
+
+.gallery-cta {
+    margin-top: 30px;
+}
+
+.gallery-cta p {
+    margin-bottom: 10px;
+    color: #eee;
+}
