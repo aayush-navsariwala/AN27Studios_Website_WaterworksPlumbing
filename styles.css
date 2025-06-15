@@ -138,3 +138,40 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.services {
+    background-color: #222;
+    padding: 50px 0;
+}
+
+.services h2 {
+    text-align: center;
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.service-category {
+    margin-bottom: 40px;
+}
+
+.service-category h3 {
+    color: #f4f4f4;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+.service-category ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.service-category ul li {
+    margin: 8px 0;
+    padding-left: 20px;
+}
+
+.cta-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
