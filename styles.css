@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1e1e1e;
-    color: #f4f4f4;
+    background-color: #f5f5f5;
+    color: #222;
     line-height: 1.6;
 }
 
@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-    color: orange;
+    color: #ff6600;
     font-size: 2.5rem;
 }
 
@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: orange;
+    color: #ff6600;
 }
 
 /* Hero Section */
@@ -66,7 +66,7 @@ nav ul li a:hover {
 }
 
 .hero h2 {
-    color: orange;
+    color: #ff6600;
     font-size: 2rem;
     margin-bottom: 10px;
 }
@@ -80,7 +80,7 @@ nav ul li a:hover {
     display: inline-block;
     padding: 12px 20px;
     margin: 5px;
-    background-color: orange;
+    background-color: #ff6600;
     color: #111;
     text-decoration: none;
     font-weight: bold;
@@ -109,7 +109,7 @@ nav ul li a:hover {
 }
 
 .services-preview h3 {
-    color: orange;
+    color: #ff6600;
     margin-bottom: 20px;
 }
 
@@ -120,6 +120,7 @@ nav ul li a:hover {
 
 .services-preview ul li {
     margin: 10px 0;
+    color: #f4f4f4;
 }
 
 /* Footer */
@@ -131,7 +132,7 @@ footer {
 }
 
 footer a {
-    color: orange;
+    color: #ff6600;
     text-decoration: none;
 }
 
@@ -146,7 +147,7 @@ footer a:hover {
 
 .services h2 {
     text-align: center;
-    color: orange;
+    color: #ff6600;
     margin-bottom: 30px;
 }
 
@@ -169,6 +170,7 @@ footer a:hover {
 .service-category ul li {
     margin: 8px 0;
     padding-left: 20px;
+    color: #f4f4f4;
 }
 
 .cta-buttons {
@@ -182,7 +184,7 @@ footer a:hover {
 }
 
 .about h2 {
-    color: orange;
+    color: #ff6600;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -200,7 +202,7 @@ footer a:hover {
 }
 
 .cta h3 {
-    color: orange;
+    color: #ff6600;
     margin-bottom: 10px;
 }
 
@@ -214,7 +216,7 @@ footer a:hover {
 }
 
 .contact h2 {
-    color: orange;
+    color: #ff6600;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -242,7 +244,7 @@ footer a:hover {
 }
 
 .quote-form h3, .contact-details h3 {
-    color: orange;
+    color: #ff6600;
     margin-bottom: 15px;
 }
 
@@ -266,7 +268,7 @@ footer a:hover {
     width: 100%;
     padding: 12px;
     border: none;
-    background-color: orange;
+    background-color: #ff6600;
     color: #111;
     font-weight: bold;
     border-radius: 5px;
@@ -284,7 +286,7 @@ footer a:hover {
 }
 
 .contact-details a {
-    color: orange;
+    color: #ff6600;
     text-decoration: none;
 }
 
@@ -299,7 +301,7 @@ footer a:hover {
 }
 
 .gallery h2 {
-    color: orange;
+    color: #ff6600;
     margin-bottom: 10px;
 }
 
@@ -341,7 +343,7 @@ footer a:hover {
 }
 
 .testimonials h2 {
-    color: orange;
+    color: #ff6600;
     margin-bottom: 10px;
 }
 
@@ -373,7 +375,7 @@ footer a:hover {
 .testimonial h4 {
     margin-bottom: 5px;
     font-weight: bold;
-    color: orange;
+    color: #ff6600;
 }
 
 .stars {
@@ -382,7 +384,7 @@ footer a:hover {
 }
 
 nav ul li a.active {
-    border-bottom: 2px solid orange;
-    color: orange;
+    border-bottom: 2px solid #ff6600;
+    color: #ff6600;
     font-weight: bold;
 }
